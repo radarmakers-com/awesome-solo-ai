@@ -109,6 +109,8 @@ Text-to-video and image-to-video — the tools creators use for shorts, ads, and
 - [Pika](https://pika.art) — creator-friendly video gen with effects and editing. 🔌
 - [Hailuo / MiniMax](https://hailuoai.video) — high-quality cinematic video gen from text or image. 🔌
 - [Hedra](https://www.hedra.com) — character-driven video and expressive talking characters. 🔌
+- [Pixwit](https://pixwit.ai) — multi-model text-to-video and image-to-video with effect templates and image gen. 🆓
+- [pitchboom.io](https://pitchboom.io) — motion-design video ads from a product URL or short brief, with script, storyboard, voice-over and music.
 
 ## AI Avatars & Talking Heads
 
@@ -165,6 +167,7 @@ Spokesperson and presenter video from a script — no camera, no studio.
 Model Context Protocol servers let your agent *do things*, not just chat. These are the ones a solo builder wires into Claude Code. **→ Full pages in [`mcp/`](mcp/).**
 
 - [Agent QA](mcp/agent-qa.md) — run natural-language web/mobile tests with persistent test memory and self-healing flows. 🧩 🆓
+- [ArtiGram](https://artigram.cafeboon.com): hosted remote MCP at `https://artigram.cafeboon.com/mcp` to publish AI-made HTML, React, SVG, Markdown or Mermaid as live shareable pages. Searching is public, publishing needs a free API key. 🧩 🆓
 - [API.market MCP Gateway](https://api.market/api/mcp/gateway) — proprietary hosted gateway to discover and call APIs for generation, search, scraping, maps and data; OAuth or API key, with pricing and free tiers varying by API. 🧩
 - [Aident Loadout](https://aident.ai) — remote MCP at `https://loadout.aident.ai/mcp` ([setup guide](https://docs.aident.ai/loadout/mcp)) that connects coding agents to 400+ Skills and connected apps through one setup; pay-as-you-go, some apps need your own OAuth or stored credentials, which stay in Vault with a full audit trail. 🧩
 - [HeyGen MCP](mcp/heygen.md) — generate avatar videos, clone voices, and create speech from your agent. 🧩
@@ -173,6 +176,7 @@ Model Context Protocol servers let your agent *do things*, not just chat. These 
 - [Ideogram MCP](mcp/ideogram.md) — hosted image generation with real typography over MCP. 🧩
 - [Karma.Domains](https://karma.domains/en/expired-domains-mcp/) — expired, auction and backorder domain search with backlink, authority and traffic metrics and Wayback history; hosted MCP server (OAuth or API key, Pro plan). 🔌 🧩
 - [Playwright MCP](mcp/playwright.md) — drive a real browser for testing and scraping. 🧩 🔓
+- [UI Verify](https://uiverify.ai) - Visual testing for solo builders shipping UI with coding agents, using Storybook, Playwright or Vitest tests; hosted MCP. Free for 10,000 snapshots a month, 50,000 for open source. 🧩 🆓
 - [GitHub MCP](mcp/github.md) — issues, PRs, and repo actions from your agent. 🧩 🔓
 - [Higgsfield](mcp/higgsfield.md) — cinematic video gen (API-first; how to drive it from an agent today). 🔌
 - [Clawvisor](mcp/clawvisor.md) — API gateway that injects credentials at execution time; agent never sees your keys. Approve scopes once, get a full audit log. 🔓
@@ -194,6 +198,7 @@ Model Context Protocol servers let your agent *do things*, not just chat. These 
 
 - [RestoSignals](https://restosignals.com) — finds US restaurants and bars 1-6 months before they open from public liquor-license, food-permit and business filings, scored with owner contact; remote MCP server and REST API, free API key. 🔌 🧩 🆓
 - [ScraperSocial](https://scrapersocial.com/mcp/) — public social media data (profiles, posts, comments, search, video transcripts) from TikTok, Instagram, LinkedIn, YouTube, X, Reddit and 30+ platforms over one REST API or a remote MCP server; 100 free signup credits, then from $5/mo. 🔌 🧩
+- [PlaceCall](https://voygr.tech/placecall/) — your agent phones US businesses to book tables and appointments, ask questions or get quotes, and gets back the outcome, transcript and recording; remote MCP server and REST API, 250 free calls with a new API key (up to 25 a day on the free tier), then paid per outcome. 🔌 🧩
 
 **More MCP servers:** [docs, search, data, email, and deploy servers worth wiring up in 2026](mcp/trending-2026.md).
 
@@ -295,6 +300,7 @@ The plumbing a solo builder needs to ship and run an AI product — picked for t
 - [Clerk](https://clerk.com) — drop-in auth so you skip building login. 🔌
 - [tgx](https://github.com/yerdaulet-damir/tgx) — TypeScript framework for building Telegram bots fast on grammY; state, Stars payments and menus built in, and designed to be built by AI agents (ships an MCP server). 🔓
 - [Gemmein](https://gemmein.com/r/dir) — backend for web and mobile apps: sign-in, protected data, payments and AI tools, with security on by default. 🔌
+- [deed.page](https://deed.page) — static hosting built for agents: one curl request or MCP call publishes HTML or a folder to a permanent public URL, no signup; agent skill at [f-o-x11/deed-page-skill](https://github.com/f-o-x11/deed-page-skill). 🔌 🧩 🆓
 
 ## Distribution & Marketing
 
@@ -303,6 +309,7 @@ Building is half the job — this is how a solo builder gets users. **Where to l
 **Research what to build**
 - [IdeaHunter](https://ideahunter.today) — turns public buyer pain and market signals into scoped app ideas with source evidence, MVP boundaries, and a validation step. 🆓
 - [FalcoScan](https://falcoscan.com) — searchable AI product database with market activity, competition, and opportunity signals; includes an API and MCP server. 🔌 🧩
+- [ProofOfIncome](https://www.proofofincomeai.com) — database of AI business revenue cases, each labelled Verified, Claimed or Unverifiable with sources and check dates; includes a leaderboard and a weekly newsletter. 🆓
 
 - [LaunchSpy](https://launchspy.io) — tracks Meta ads, funnels and software used by course creators, coaches and community owners; [API and MCP access](https://launchspy.io/mcp) require Pro or Business. 🔌 🧩
 
@@ -314,6 +321,7 @@ Building is half the job — this is how a solo builder gets users. **Where to l
 - [Indie Hackers](https://indiehackers.com) — community of solo founders sharing what works.
 - [Peerlist](https://peerlist.io) — launchpad and network for builders.
 - [RadarMakers](https://radarmakers.com) - free launchpad where indie products get upvotes, comments, and ratings on idea, execution, design, and value. 🆓
+- [CodeTrendy](https://codetrendy.com) — directory for newly launched startups, SaaS and indie products; each submission passes an automated content check and staff may reject it, approved listings get their own page. Free listing needs an account and a CodeTrendy badge on your homepage; paid plans from $19 per listing, homepage featured placement from $39 one time or $30 per month. 🆓
 - [startup-directories](https://github.com/saidbouig/startup-directories) — 214 startup and launch directories with what the free route gives, the measured link type and the date checked. 🆓 🔓
 
 **Grow & post**
@@ -321,6 +329,7 @@ Building is half the job — this is how a solo builder gets users. **Where to l
 - [Social media automation, human in the loop](distribution/social-media-automation.md), self-hosted schedulers and cross-posting for X, LinkedIn, Reddit, and Threads (Postiz, Mixpost, praw, xMCP).
 - [Typefully](https://typefully.com) — write, schedule, and grow on X/Threads.
 - [Buffer](https://buffer.com) — schedule across every social channel.
+- [JuzPost](https://www.juzpost.com) — schedule posts to 11 networks (X, LinkedIn, Instagram, Facebook, TikTok, YouTube, Threads, Bluesky, Pinterest, Tumblr, WordPress). Free plan: 2 accounts, 15 queued posts, no X. REST API, CLI and MCP server (schedule from Claude) on paid plans from Solo. 🔌 🧩 🆓
 - [LaunchGrill](https://launchgrill.com) — scores a landing page 0–100 against a published 18-test checklist, quoting the page for each finding. 🆓
 - [SocialEcho](https://www.socialecho.net) — publish, monitor, analyze, and manage messages across eleven social platforms from one workspace. 🆓
 - [Autoposting](https://autoposting.ai) — write in your own voice, clip long video, and schedule to X, LinkedIn, Instagram, Threads and YouTube.
